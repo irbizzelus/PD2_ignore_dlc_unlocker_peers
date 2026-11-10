@@ -1,0 +1,10 @@
+{
+	"name" : "Ignore DLC unlocker peers",
+	"description" : "Prevents other players from getting the CHEATER tag if they use a DLC unlocker cheat.",
+	"author" : "irbizzelus",
+	"contact" : "Steam profile link is on my modworkshop account",
+	"version" : "1.0",
+	"hooks" : [
+		{"hook_id" : "lib/network/base/networkpeer", "script_path" : "networkpeer.lua"}
+	]
+}
